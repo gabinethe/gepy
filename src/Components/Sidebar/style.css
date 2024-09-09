@@ -4,7 +4,7 @@
   background-color: white;
   border-radius: 50px;
   margin-right: 2%;
-  padding: 2%;
+  padding: 1%;
 }
 
 button {
@@ -13,9 +13,9 @@ button {
   align-items: center;
   justify-content: center;
   background-color: darkorchid;
-  border-radius: 50px;
-  width: 5vw;
-  height: 10vh;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
 }
 
 ul {
