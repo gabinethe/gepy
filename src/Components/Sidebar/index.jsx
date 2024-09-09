@@ -14,37 +14,37 @@ export default function Sidebar() {
     <div className="sidebar-style">
       <ul>
         <li>
-          <button>
+          <button className="button-sidebar">
             <User />
           </button>
           Alunos
         </li>
         <li>
-          <button>
+          <button className="button-sidebar">
             <Users />
           </button>
           Turmas
         </li>
         <li>
-          <button>
+          <button className="button-sidebar">
             <Contact />
           </button>
           Funcionários
         </li>
         <li>
-          <button>
+          <button className="button-sidebar">
             <Newspaper />
           </button>
           Newsletter
         </li>
         <li>
-          <button>
+          <button className="button-sidebar">
             <NotebookPen />
           </button>
           Agenda
         </li>
         <li>
-          <button>
+          <button className="button-sidebar">
             <LogOut />
           </button>
           LogOff
