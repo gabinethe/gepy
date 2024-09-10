@@ -17,6 +17,8 @@
   border-radius: 50%;
   width: 70px;
   height: 70px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .lucide {
