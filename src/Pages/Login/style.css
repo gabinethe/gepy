@@ -41,8 +41,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 4%;
-  padding-top: 20%;
+  margin: 0%;
+  padding-top: 15%;
   gap: 20px;
 }
 
@@ -53,12 +53,11 @@ h1 {
 a {
   color: white;
   font-size: 15px;
-  flex-direction: row;
 }
 
 label {
   align-self: flex-start;
-  padding-left: 9vw;
+  padding-left: 10vw;
   color: white;
 }
 
@@ -66,7 +65,7 @@ input {
   width: 20vw;
   height: 5vh;
   border-radius: 30px;
-  padding-left: 10px;
+  padding-left: 12px;
 }
 
 .button-login-in {
