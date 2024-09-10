@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-
 nav {
   display: flex;
   flex-direction: row;
@@ -26,20 +25,13 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin-right: 20px;
 }
 
-input {
+.input-nav {
   width: 20vw;
   height: 5vh;
-  border-style: bold;
-  border-color: #6700b3;
+  border: 2px solid #6700b2;
   border-radius: 20px;
   padding-left: 10px;
   margin-right: 50px;
 }
-
-
-
-
-
