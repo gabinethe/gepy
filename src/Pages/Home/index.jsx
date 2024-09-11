@@ -3,7 +3,7 @@ import "./style.css";
 import Navbar from "../../Components/Navbar";
 import Sidebar from "../../Components/Sidebar";
 import Footer from "../../Components/Footer";
-import MainForm from "../../Components/Card";
+import { Outlet } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <Navbar />
       <div className="container-row">
         <Sidebar />
-        <MainForm />
+        <Outlet />
       </div>
       <Footer />
     </div>
