@@ -1,9 +1,15 @@
 import React from "react";
 import "./style.css";
 import Logo from "../../Assets/Images/Logo.png";
-import { Outlet } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
 
 export default function LoginPage() {
+  const navigate = useNavigate();
+
+  function goToSecondPage() {
+    navigate("/");
+  }
+
   return (
     <div className="container-login">
       <div className="container-left">
@@ -19,7 +25,7 @@ export default function LoginPage() {
           <label className = "password">Senha: </label>
           <input placeholder="digite sua senha" type="password"></input>
 
-          <button onSubmit={''}>Entrar</button>
+          <button className="button-login-in" onClick={goToSecondPage}>Entrar</button>
 
           <a>Esqueceu a senha?</a>
           <a>Primeiro acesso</a>

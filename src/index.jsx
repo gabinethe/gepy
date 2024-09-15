@@ -12,6 +12,7 @@ import Agenda from "./Components/Agenda";
 import ErrorPage from "./Pages/ErrorPage";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import InitialButtons from "./Components/Card";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
     element: <Home />,
     errorElement: <ErrorPage />,
     children: [
+      {
+        path: "/tela-inicial",
+        element: <InitialButtons />,
+      },
       {
         path: "/alunos",
         element: <Alunos />,

@@ -12,7 +12,7 @@ import {
 export default function Sidebar() {
   return (
     <div className="sidebar-style">
-      <ul>
+      <ul className="ul-sidebar">
         <li>
           <button className="button-sidebar">
             <User />
